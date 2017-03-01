@@ -16,3 +16,7 @@ Route::get('/', function () {
 });
 
 Route::resource('reports', 'ReportsController');
+
+get('about', function () {
+    return "About";
+});
